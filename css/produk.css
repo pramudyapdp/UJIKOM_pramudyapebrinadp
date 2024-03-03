@@ -1,0 +1,243 @@
+/* UNTUK IMG LATEST PRODUCT */
+.row-produk {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.img-limit-6 {
+    overflow: hidden;
+    transition: transform 0.5s;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.img-limit-6:hover {
+    transform: scale(1.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kolom pencarian */
+form.d-flex {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Input pencarian */
+form.d-flex input {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Tombol pencarian */
+form.d-flex button {
+    margin-left: 10px;
+}
+
+/* Tombol "Add" atau tombol yang untuk menginputkan data data */
+.btn-add {
+    background-color: #5B3F41;
+    color: #FFFCF4;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Efek Hover padaa Tombol "Add Product" */
+.btn-add:hover {
+    background-color: #FFFCF4;
+    color: #5B3F41;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.btn-add {
+    background-color: #5B3F41;
+    color: #FFFCF4;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s, transform 0.3s;
+}
+
+
+
+/*style untuk button pay*/
+.btn-pay {
+    background-color: #FFFCF4;
+    border-color: #5B3F41;
+    color: #5B3F41;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Efek Hover padaa Tombol "pay" */
+.btn-pay:hover {
+    background-color: #FFFCF4;
+    color: #5B3F41;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+
+.btn-search {
+    background-color: #5B3F41;
+    color: #FFFCF4;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Efek Hover padaa Tombol "search" */
+.btn-search:hover {
+    background-color: #FFFCF4;
+    color: #5B3F41;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+
+/* UNTUK IMG UTAMA YG DONUT GEDE BAGIAN TEKS NYA*/
+
+
+.header-desc {
+    position: absolute;
+    bottom: 1215px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 3.7em;
+    color: #5B3F41;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+/*biar p produk lates ada hover */
+.product-latest {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #5B3F41;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-latest:hover {
+    transform: scale(1.1);
+}
+
+/*Untuk p deskripsi */
+.product-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FFFDD0;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 900px;
+}
+
+/*style biar card ada hover transformasinya*/
+.card-produk {
+    transition: transform 0.3s;
+    border-radius: 30px;
+    border: none;
+}
+
+.card-produk:hover {
+    transform: scale(1.05);
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+/*ini untuk button yang border pink sama bg pink */
+.btn-shop {
+    transition: transform 0.3s;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shop:hover {
+    transform: scale(1.15);
+}
+
+.btn-satu {
+    transition: transform 0.3s;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #DBB1E1;
+    color: #FFFCF4;
+    font-weight: bold;
+}
+
+.btn-satu:hover {
+    transform: scale(1.15);
+    background-color: #5B3F41;
+    color: #FFFCF4;
+}
+
+.btn-dua {
+    transition: transform 0.3s;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #93D5D8;
+    color: #FFFCF4;
+    font-weight: bold;
+}
+
+.btn-dua:hover {
+    transform: scale(1.15);
+    background-color: #5B3F41;
+    color: #FFFCF4;
+}
+
+.btn-tiga {
+    transition: transform 0.3s;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #F6A9BD;
+    color: #fffcf4;
+    font-weight: bold;
+}
+
+.btn-tiga:hover {
+    transform: scale(1.15);
+    background-color: #5B3F41;
+    color: #FFFDD0;
+}
+
+/*ini bagian untuk form input dalam modal */
+.form-control {
+    background-color: #FFFCF4;
+    border-radius: 60px;
+}
+
+
+/*ini bagian modal add, edit, delet, information*/
+.modal-header {
+    background-color: #FFFCF4;
+    border: none;
+}
+
+.modal-body {
+    background-color: #FFFCF4;
+    border: none;
+}
+
+.modal-footer {
+    background-color: #FFFCF4;
+    border: none;
+}
+
